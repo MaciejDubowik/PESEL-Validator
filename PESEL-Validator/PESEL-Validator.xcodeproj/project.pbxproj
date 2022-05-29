@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4706B528436F7B00406E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706B428436F7B00406E30 /* AppDelegate.swift */; };
+		0E4706B728436F7B00406E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706B628436F7B00406E30 /* SceneDelegate.swift */; };
+		0E4706B928436F7B00406E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706B828436F7B00406E30 /* ViewController.swift */; };
+		0E4706BC28436F7B00406E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4706BA28436F7B00406E30 /* Main.storyboard */; };
+		0E4706BE28436F7D00406E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4706BD28436F7D00406E30 /* Assets.xcassets */; };
+		0E4706C128436F7D00406E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4706BF28436F7D00406E30 /* LaunchScreen.storyboard */; };
+		0E4706CC28436F7D00406E30 /* PESEL_ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706CB28436F7D00406E30 /* PESEL_ValidatorTests.swift */; };
+		0E4706D628436F7D00406E30 /* PESEL_ValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706D528436F7D00406E30 /* PESEL_ValidatorUITests.swift */; };
+		0E4706D828436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E4706C828436F7D00406E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4706A928436F7B00406E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4706B028436F7B00406E30;
+			remoteInfo = "PESEL-Validator";
+		};
+		0E4706D228436F7D00406E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E4706A928436F7B00406E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E4706B028436F7B00406E30;
+			remoteInfo = "PESEL-Validator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4706B128436F7B00406E30 /* PESEL-Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PESEL-Validator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4706B428436F7B00406E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E4706B628436F7B00406E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E4706B828436F7B00406E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E4706BB28436F7B00406E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E4706BD28436F7D00406E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E4706C028436F7D00406E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E4706C228436F7D00406E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4706C728436F7D00406E30 /* PESEL-ValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PESEL-ValidatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4706CB28436F7D00406E30 /* PESEL_ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PESEL_ValidatorTests.swift; sourceTree = "<group>"; };
+		0E4706D128436F7D00406E30 /* PESEL-ValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PESEL-ValidatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4706D528436F7D00406E30 /* PESEL_ValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PESEL_ValidatorUITests.swift; sourceTree = "<group>"; };
+		0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PESEL_ValidatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4706AE28436F7B00406E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706C428436F7D00406E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706CE28436F7D00406E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4706A828436F7B00406E30 = {
+			isa = PBXGroup;
+			children = (
+				0E4706B328436F7B00406E30 /* PESEL-Validator */,
+				0E4706CA28436F7D00406E30 /* PESEL-ValidatorTests */,
+				0E4706D428436F7D00406E30 /* PESEL-ValidatorUITests */,
+				0E4706B228436F7B00406E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E4706B228436F7B00406E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706B128436F7B00406E30 /* PESEL-Validator.app */,
+				0E4706C728436F7D00406E30 /* PESEL-ValidatorTests.xctest */,
+				0E4706D128436F7D00406E30 /* PESEL-ValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E4706B328436F7B00406E30 /* PESEL-Validator */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706B428436F7B00406E30 /* AppDelegate.swift */,
+				0E4706B628436F7B00406E30 /* SceneDelegate.swift */,
+				0E4706B828436F7B00406E30 /* ViewController.swift */,
+				0E4706BA28436F7B00406E30 /* Main.storyboard */,
+				0E4706BD28436F7D00406E30 /* Assets.xcassets */,
+				0E4706BF28436F7D00406E30 /* LaunchScreen.storyboard */,
+				0E4706C228436F7D00406E30 /* Info.plist */,
+			);
+			path = "PESEL-Validator";
+			sourceTree = "<group>";
+		};
+		0E4706CA28436F7D00406E30 /* PESEL-ValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706CB28436F7D00406E30 /* PESEL_ValidatorTests.swift */,
+			);
+			path = "PESEL-ValidatorTests";
+			sourceTree = "<group>";
+		};
+		0E4706D428436F7D00406E30 /* PESEL-ValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706D528436F7D00406E30 /* PESEL_ValidatorUITests.swift */,
+				0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */,
+			);
+			path = "PESEL-ValidatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E4706B028436F7B00406E30 /* PESEL-Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4706DB28436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-Validator" */;
+			buildPhases = (
+				0E4706AD28436F7B00406E30 /* Sources */,
+				0E4706AE28436F7B00406E30 /* Frameworks */,
+				0E4706AF28436F7B00406E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PESEL-Validator";
+			productName = "PESEL-Validator";
+			productReference = 0E4706B128436F7B00406E30 /* PESEL-Validator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E4706C628436F7D00406E30 /* PESEL-ValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4706DE28436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-ValidatorTests" */;
+			buildPhases = (
+				0E4706C328436F7D00406E30 /* Sources */,
+				0E4706C428436F7D00406E30 /* Frameworks */,
+				0E4706C528436F7D00406E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E4706C928436F7D00406E30 /* PBXTargetDependency */,
+			);
+			name = "PESEL-ValidatorTests";
+			productName = "PESEL-ValidatorTests";
+			productReference = 0E4706C728436F7D00406E30 /* PESEL-ValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E4706D028436F7D00406E30 /* PESEL-ValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4706E128436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-ValidatorUITests" */;
+			buildPhases = (
+				0E4706CD28436F7D00406E30 /* Sources */,
+				0E4706CE28436F7D00406E30 /* Frameworks */,
+				0E4706CF28436F7D00406E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E4706D328436F7D00406E30 /* PBXTargetDependency */,
+			);
+			name = "PESEL-ValidatorUITests";
+			productName = "PESEL-ValidatorUITests";
+			productReference = 0E4706D128436F7D00406E30 /* PESEL-ValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E4706A928436F7B00406E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0E4706B028436F7B00406E30 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0E4706C628436F7D00406E30 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0E4706B028436F7B00406E30;
+					};
+					0E4706D028436F7D00406E30 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0E4706B028436F7B00406E30;
+					};
+				};
+			};
+			buildConfigurationList = 0E4706AC28436F7B00406E30 /* Build configuration list for PBXProject "PESEL-Validator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E4706A828436F7B00406E30;
+			productRefGroup = 0E4706B228436F7B00406E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E4706B028436F7B00406E30 /* PESEL-Validator */,
+				0E4706C628436F7D00406E30 /* PESEL-ValidatorTests */,
+				0E4706D028436F7D00406E30 /* PESEL-ValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E4706AF28436F7B00406E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4706C128436F7D00406E30 /* LaunchScreen.storyboard in Resources */,
+				0E4706BE28436F7D00406E30 /* Assets.xcassets in Resources */,
+				0E4706BC28436F7B00406E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706C528436F7D00406E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706CF28436F7D00406E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4706AD28436F7B00406E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4706B928436F7B00406E30 /* ViewController.swift in Sources */,
+				0E4706B528436F7B00406E30 /* AppDelegate.swift in Sources */,
+				0E4706B728436F7B00406E30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706C328436F7D00406E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4706CC28436F7D00406E30 /* PESEL_ValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4706CD28436F7D00406E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4706D628436F7D00406E30 /* PESEL_ValidatorUITests.swift in Sources */,
+				0E4706D828436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E4706C928436F7D00406E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4706B028436F7B00406E30 /* PESEL-Validator */;
+			targetProxy = 0E4706C828436F7D00406E30 /* PBXContainerItemProxy */;
+		};
+		0E4706D328436F7D00406E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E4706B028436F7B00406E30 /* PESEL-Validator */;
+			targetProxy = 0E4706D228436F7D00406E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E4706BA28436F7B00406E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E4706BB28436F7B00406E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E4706BF28436F7D00406E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E4706C028436F7D00406E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E4706D928436F7D00406E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E4706DA28436F7D00406E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E4706DC28436F7D00406E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PESEL-Validator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-Validator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E4706DD28436F7D00406E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PESEL-Validator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-Validator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E4706DF28436F7D00406E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-ValidatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PESEL-Validator.app/PESEL-Validator";
+			};
+			name = Debug;
+		};
+		0E4706E028436F7D00406E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-ValidatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PESEL-Validator.app/PESEL-Validator";
+			};
+			name = Release;
+		};
+		0E4706E228436F7D00406E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-ValidatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PESEL-Validator";
+			};
+			name = Debug;
+		};
+		0E4706E328436F7D00406E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5464LMAQBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maciejdubowik.PESEL-ValidatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PESEL-Validator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4706AC28436F7B00406E30 /* Build configuration list for PBXProject "PESEL-Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4706D928436F7D00406E30 /* Debug */,
+				0E4706DA28436F7D00406E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4706DB28436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4706DC28436F7D00406E30 /* Debug */,
+				0E4706DD28436F7D00406E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4706DE28436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-ValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4706DF28436F7D00406E30 /* Debug */,
+				0E4706E028436F7D00406E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4706E128436F7D00406E30 /* Build configuration list for PBXNativeTarget "PESEL-ValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4706E228436F7D00406E30 /* Debug */,
+				0E4706E328436F7D00406E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4706A928436F7B00406E30 /* Project object */;
+}
