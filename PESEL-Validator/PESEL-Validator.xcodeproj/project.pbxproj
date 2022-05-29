@@ -16,6 +16,8 @@
 		0E4706CC28436F7D00406E30 /* PESEL_ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706CB28436F7D00406E30 /* PESEL_ValidatorTests.swift */; };
 		0E4706D628436F7D00406E30 /* PESEL_ValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706D528436F7D00406E30 /* PESEL_ValidatorUITests.swift */; };
 		0E4706D828436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */; };
+		0E4706E82843758800406E30 /* Pesel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706E72843758800406E30 /* Pesel.swift */; };
+		0E4706EA2843778400406E30 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4706E92843778400406E30 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0E4706D128436F7D00406E30 /* PESEL-ValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PESEL-ValidatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4706D528436F7D00406E30 /* PESEL_ValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PESEL_ValidatorUITests.swift; sourceTree = "<group>"; };
 		0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PESEL_ValidatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E4706E72843758800406E30 /* Pesel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesel.swift; sourceTree = "<group>"; };
+		0E4706E92843778400406E30 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		0E4706B328436F7B00406E30 /* PESEL-Validator */ = {
 			isa = PBXGroup;
 			children = (
+				0E4706E6284374B500406E30 /* controllers */,
+				0E4706E52843747900406E30 /* views */,
+				0E4706E42843744000406E30 /* model */,
 				0E4706B428436F7B00406E30 /* AppDelegate.swift */,
 				0E4706B628436F7B00406E30 /* SceneDelegate.swift */,
 				0E4706B828436F7B00406E30 /* ViewController.swift */,
-				0E4706BA28436F7B00406E30 /* Main.storyboard */,
 				0E4706BD28436F7D00406E30 /* Assets.xcassets */,
 				0E4706BF28436F7D00406E30 /* LaunchScreen.storyboard */,
 				0E4706C228436F7D00406E30 /* Info.plist */,
@@ -125,6 +131,30 @@
 				0E4706D728436F7D00406E30 /* PESEL_ValidatorUITestsLaunchTests.swift */,
 			);
 			path = "PESEL-ValidatorUITests";
+			sourceTree = "<group>";
+		};
+		0E4706E42843744000406E30 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706E72843758800406E30 /* Pesel.swift */,
+				0E4706E92843778400406E30 /* Validator.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0E4706E52843747900406E30 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0E4706BA28436F7B00406E30 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0E4706E6284374B500406E30 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			files = (
 				0E4706B928436F7B00406E30 /* ViewController.swift in Sources */,
 				0E4706B528436F7B00406E30 /* AppDelegate.swift in Sources */,
+				0E4706EA2843778400406E30 /* Validator.swift in Sources */,
 				0E4706B728436F7B00406E30 /* SceneDelegate.swift in Sources */,
+				0E4706E82843758800406E30 /* Pesel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
